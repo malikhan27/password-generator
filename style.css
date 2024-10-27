@@ -1,9 +1,9 @@
 .main {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(202, 181, 181, 0.555);
 }
 
 .my-ul {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .new-ul {
@@ -12,4 +12,56 @@
 }
 .new-ul li {
   margin-left: 5px;
+  font-size: 14px;
+}
+.new-ul li span {
+  background-color: #ffddbf;
+  font-weight: 800;
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+.new-ul a span {
+  border-left: 1px solid rgba(202, 181, 181, 0.555);
+  padding: 0px 8px;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.last-ul {
+  list-style: none;
+  white-space: nowrap;
+  margin-right: 35px;
+}
+.last-ul li {
+  margin-left: 5px;
+  font-size: 14px;
+}
+.last-ul .drp {
+  border-left: 0.5px solid rgba(202, 181, 181, 0.555) !important;
+  padding-left: 8px;
+}
+
+.last-ul-2 {
+  list-style: none;
+  white-space: nowrap;
+  margin-right: 31px;
+}
+.last-ul-2 li {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.sec-1 h1 {
+  margin-top: 100px;
+  font-size: 50px;
+  color: #071d2b;
+}
+.sec-1 p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #071d2b;
+}
+
+.input-pass {
+  width: 50% !important;
 }/*# sourceMappingURL=style.css.map */
