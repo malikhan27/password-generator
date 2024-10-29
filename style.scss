@@ -68,7 +68,20 @@ a{
     }
 }
 
-.input-pass{
-    
-    width: 50% !important;
+
+
+#input-range{
+   
+    border: 1px solid #071d2b !important;
+    border-radius: 10px !important;;
+    height: 50px;
+    width: 40%;
+    padding: 10px 20px;
+    span{
+        width: max-content;
+        height: max-content;
+    }
+ 
+
 }
+
